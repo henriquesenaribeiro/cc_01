@@ -15,3 +15,18 @@ var isAvailable = true;
 console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+
+//Task 3: Financial Transactions
+let accountBalance = 1000;
+
+accountBalance += 500;
+console.log("After Deposit:", accountBalance);
+
+accountBalance -= 300;
+console/log("After Withdrawl:", accountBalance);
+
+accountBalance *= 1.05;
+console.log("After Interest:", accountBalance);
+
+accountBalance /= 2;
+console.log("After Halving:", accountBalance);
