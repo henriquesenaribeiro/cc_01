@@ -36,3 +36,12 @@ let customerName = "Henry";
 
 let welcomeMessage = "Welcome to our plaform," + customerName + "!";
 console.log(welcomeMessage);
+
+//Task 5: Access Control
+let isLoggedIn = false;
+
+if (isLoggedIn) {
+    console.log("Acess granted.");
+} else {
+    console.log("Acess denied. Please log in.");
+}
