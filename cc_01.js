@@ -30,3 +30,9 @@ console.log("After Interest:", accountBalance);
 
 accountBalance /= 2;
 console.log("After Halving:", accountBalance);
+
+//Task 4: Customer Messaging
+let customerName = "Henry";
+
+let welcomeMessage = "Welcome to our plaform," + customerName + "!";
+console.log(welcomeMessage);
